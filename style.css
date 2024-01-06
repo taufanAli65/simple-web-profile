@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Space+Mono&family=Work+Sans&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: "open sans";
+}
+
+.container {
+    margin-top: 30px;
+    text-align: center;
+    width: 35%;
+    border: 2px solid #8e24aa;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#fotoku {
+    margin: 5%;
+    width: 55%;
+    height: auto;
+    background-color: blue;
+    border-radius: 100%;
+    border: 2px solid #8e24aa;
+}
+
+.container h1 {
+    margin: 0;
+}
+.container h2 {
+    margin: 0;
+}
+.container p {
+    margin: 5%;
+}
+
+.container .sosmed-container {
+    font-size: 35px;
+    margin-bottom: 5%;
+}
+.container .sosmed-container a{
+    color: #8e24aa;
+    padding: 2%;
+}
+.container .button-container {
+    margin-bottom: 5%;
+}
+.container .button-container button {
+    width: 125px;
+    height: 50px;
+    background-color: white;
+    color: #8e24aa;
+    border: 2px solid #8e24aa;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 85%;
+        margin-top: 25%;
+    }
+}
